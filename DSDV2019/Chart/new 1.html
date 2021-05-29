@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<meta charset='urf-8'>
+<html>
+ <head>
+ <title>histogram</title>
+<script type="text/javascript" src="https://d3js.org/d3.v4.min.js"charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+ </head>
+ <body>
+   <div id="pie1"></div>
+     <div id="pie2"></div>
+	 	   <div id="lineChart"></div>
+	 <div id="my_dataviz"></div>
+
+	 <div id="map"> </div>
+	 
+	 	<div id="tooltip" class="hidden">
+			<p><strong>COVID-19</strong></p>
+			<p><span id="type"></span></p>
+			<p><span id="date"></span></p>
+		</div>
+		
+		<script type="text/javascript" src = "line.js" > </script>  
+		<h2>COVID-19 EPIDEMIC in VIETNAM</h2>
+<style>
+
+      #pie1 {    
+	position:absolute;
+	top:30px;
+	left:510px;
+	width:400px;
+	height: 400px; 
+	font-family: sans-serif;
+	font-size:9px 
+}
+#pie2 {    
+	position:absolute;
+	top:30px;
+	left:910px;
+	width:400px;
+	height: 400px;
+	font-family: sans-serif;
+	font-size:9px 
+}
+
+#my_dataviz{
+	position:absolute;
+	top:410px;
+	left:810px;
+	width:600px;
+	height:400px; 
+}
+
+#lineChart{
+position:absolute;
+	top:410px;
+	left:10px;
+	width:800px;
+	height:400px; 
+}
+
+#map{
+position:absolute;
+top:10px;
+left:10px;
+width:400px;
+height:400px;
+}
+
+svg {
+    float: left;
+}
+
+
+.pie1 text {
+  font-family: "Verdana";
+  fill: #000;
+}
+
+.pie1 .Status-text{
+  font-size: .8em;
+}
+
+.pie1 .Value-text{
+  font-size: 3em;
+}
+
+.pie2 text {
+  font-family: "Verdana";
+  fill: #000;
+}
+
+.pie2 .Status-text{
+  font-size: .8em;
+}
+
+.pie2 .Value-text{
+  font-size: 3em;
+}
+
+.line {
+fill: none;
+stroke-width: 2px;
+}
+
+.legend {
+font-size: 16px;
+font-weight: bold;
+text-anchor: middle;
+} 
+
+
+
+			circle:hover {
+				fill: orange;
+			}
+			
+			#tooltip {
+				position: absolute;
+				width: auto;
+				height: auto;
+				padding: 10px;
+				background-color: white;
+				-webkit-border-radius: 10px;
+				-moz-border-radius: 10px;
+				border-radius: 10px;
+				-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+				-moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+				box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+				pointer-events: none;
+			}
+			
+			#tooltip.hidden {
+				display: none;
+			}
+			
+			#tooltip p {
+				margin: 0;
+				font-family: sans-serif;
+				font-size: 16px;
+				line-height: 20px;
+
+
+    </style>
+	
+ <script type="text/javascript" src = "pie1.js" > </script>
+ <script type="text/javascript" src = "pie2.js" > </script>
+<script type="text/javascript" src = "histogram.js" > </script>
+
+<script type="text/javascript" src = "map2.js" > </script>  
+ </body>

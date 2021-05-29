@@ -1,0 +1,335 @@
+﻿F1,PatientID,Age,Sex,Location,Status,Nationality
+0,BN334,29,Male,Quảng Ninh,Being treated,Vietnam
+1,BN333,37,Male,Bà Rịa - Vũng Tàu,Being treated,Vietnam
+2,BN332,18,Male,Đồng Tháp,Being treated,Vietnam
+3,BN331,47,Female,Quảng Nam,Being treated,Vietnam
+4,BN330,28,Female,Quảng Nam,Being treated,Vietnam
+5,BN329,22,Male,Hồ Chí Minh,Being treated,Vietnam
+6,BN328,1,Male,Hải Dương,Being treated,Vietnam
+7,BN327,31,Male,Thái Bình,Recovered,Vietnam
+8,BN326,20,Female,Hồ Chí Minh,Recovered,Vietnam
+9,BN325,34,Female,Hải Dương,Recovered,Vietnam
+10,BN324,18,Male,Hà Nội,Recovered,Vietnam
+11,BN323,19,Female,Hà Nội,Recovered,Vietnam
+12,BN322,39,Male,Hồ Chí Minh,Being treated,Vietnam
+13,BN321,44,Male,Hồ Chí Minh,Recovered,Vietnam
+14,BN320,29,Male,Thái Bình,Recovered,Vietnam
+15,BN319,26,Male,Thái Bình,Recovered,Vietnam
+16,BN318,41,Female,Thái Bình,Recovered,Vietnam
+17,BN317,29,Male,Thái Bình,Recovered,Vietnam
+18,BN316,19,Male,Đồng Tháp,Recovered,Vietnam
+19,BN315,39,Male,Tây Ninh,Recovered,Vietnam
+20,BN314,62,Female,Hải Dương,Recovered,Vietnam
+21,BN313,28,Male,Bạc Liêu,Recovered,Vietnam
+22,BN312,50,Female,Quảng Ninh,Recovered,Vietnam
+23,BN311,26,Male,Thái Bình,Recovered,Vietnam
+24,BN310,26,Male,Thái Bình,Recovered,Vietnam
+25,BN309,30,Male,Thái Bình,Recovered,Vietnam
+26,BN308,42,Male,Thái Bình,Recovered,Vietnam
+27,BN307,30,Male,Thái Bình,Recovered,Vietnam
+28,BN306,25,Male,Thái Bình,Recovered,Vietnam
+29,BN305,36,Male,Thái Bình,Recovered,Vietnam
+30,BN304,47,Male,Thái Bình,Recovered,Vietnam
+31,BN303,48,Male,Thái Bình,Recovered,Vietnam
+32,BN302,25,Male,Thái Bình,Recovered,Vietnam
+33,BN301,29,Male,Thái Bình,Being treated,Vietnam
+34,BN300,26,Male,Thái Bình,Recovered,Vietnam
+35,BN299,35,Male,Thái Bình,Recovered,Vietnam
+36,BN298,29,Male,Thái Bình,Recovered,Vietnam
+37,BN297,30,Male,Thái Bình,Recovered,Vietnam
+38,BN296,45,Male,Thái Bình,Recovered,Vietnam
+39,BN295,26,Male,Thái Bình,Recovered,Vietnam
+40,BN294,29,Male,Thái Bình,Recovered,Vietnam
+41,BN293,30,Male,Thái Bình,Recovered,Vietnam
+42,BN292,27,Male,Thái Bình,Being treated,Vietnam
+43,BN291,24,Male,Thái Bình,Recovered,Vietnam
+44,BN290,40,Male,Thái Bình,Recovered,Vietnam
+45,BN289,25,Male,Thái Bình,Recovered,Vietnam
+46,BN288,32,Female,Bạc Liêu,Recovered,Vietnam
+47,BN287,28,Male,Bạc Liêu,Recovered,Vietnam
+48,BN286,23,Female,Bạc Liêu,Recovered,Vietnam
+49,BN285,30,Female,Bạc Liêu,Recovered,Vietnam
+50,BN284,30,Female,Bạc Liêu,Recovered,Vietnam
+51,BN283,20,Female,Bạc Liêu,Recovered,Vietnam
+52,BN282,37,Female,Bạc Liêu,Recovered,Vietnam
+53,BN281,30,Female,Bạc Liêu,Recovered,Vietnam
+54,BN280,29,Female,Bạc Liêu,Recovered,Vietnam
+55,BN279,20,Male,Bạc Liêu,Recovered,Vietnam
+56,BN278,50,Female,Bạc Liêu,Recovered,Vietnam
+57,BN277,22,Female,Bạc Liêu,Recovered,Vietnam
+58,BN276,36,Male,Bạc Liêu,Recovered,Vietnam
+59,BN275,33,Male,Bạc Liêu,Recovered,Vietnam
+60,BN274,0,Male,Bạc Liêu,Recovered,Vietnam
+61,BN273,30,Female,Bạc Liêu,Recovered,Vietnam
+62,BN272,58,Male,Bạc Liêu,Recovered,Vietnam
+63,BN271,37,Male,Hồ Chí Minh,Recovered,United Kingdom
+64,BN270,22,Female,Thái Bình,Recovered,Vietnam
+65,BN269,23,Male,Thái Bình,Recovered,Vietnam
+66,BN268,16,Female,Hà Giang,Recovered,Vietnam
+67,BN267,46,Male,Hà Nội,Recovered,Vietnam
+68,BN266,36,Female,Hà Nội,Recovered,Vietnam
+69,BN265,26,Male,Hà Tĩnh,Recovered,Vietnam
+70,BN264,24,Female,Hà Nội,Recovered,Vietnam
+71,BN263,45,Female,Hà Nội,Recovered,Vietnam
+72,BN262,26,Male,Hà Nội,Recovered,Vietnam
+73,BN261,60,Female,Hà Nội,Recovered,Vietnam
+74,BN260,35,Female,Hà Nội,Recovered,Vietnam
+75,BN259,41,Female,Hà Nội,Recovered,Vietnam
+76,BN258,47,Female,Hà Nội,Recovered,Vietnam
+77,BN257,15,Female,Hà Nội,Recovered,Vietnam
+78,BN256,52,Male,Vĩnh Phúc,Recovered,Vietnam
+79,BN255,29,Male,Vĩnh Phúc,Recovered,Vietnam
+80,BN254,51,Male,Hà Nội,Recovered,Vietnam
+81,BN253,41,Female,Hà Nội,Recovered,Vietnam
+82,BN252,6,Male,Tây Ninh,Recovered,Vietnam
+83,BN251,64,Male,Hà Nam,Recovered,Vietnam
+84,BN250,50,Female,Hà Nội,Recovered,Vietnam
+85,BN249,55,Male,Hà Nội,Recovered,Vietnam
+86,BN248,20,Male,Hồ Chí Minh,Recovered,Vietnam
+87,BN247,28,Male,Đồng Nai,Recovered,Vietnam
+88,BN246,33,Male,Hà Nội,Recovered,Vietnam
+89,BN245,21,Female,Hà Nội,Recovered,Vietnam
+90,BN244,44,Female,Hà Nội,Recovered,Vietnam
+91,BN243,47,Male,Hà Nội,Recovered,Vietnam
+92,BN242,34,Female,Hà Nội,Recovered,Vietnam
+93,BN241,20,Male,Bạc Liêu,Recovered,Vietnam
+94,BN240,29,Female,Ninh Bình,Recovered,Vietnam
+95,BN239,71,Male,Vĩnh Phúc,Recovered,Vietnam
+96,BN238,17,Female,Hà Tĩnh,Recovered,Vietnam
+97,BN237,64,Male,Hà Nội,Recovered,Sweden
+98,BN236,26,Female,Hồ Chí Minh,Recovered,United Kingdom
+99,BN235,25,Male,Hồ Chí Minh,Recovered,United Kingdom
+100,BN234,69,Female,Hồ Chí Minh,Recovered,Vietnam
+101,BN233,24,Female,Vĩnh Phúc,Recovered,Vietnam
+102,BN232,67,Male,Vĩnh Phúc,Recovered,Vietnam
+103,BN231,57,Female,Hà Nam,Recovered,Vietnam
+104,BN230,28,Female,Ninh Bình,Recovered,Vietnam
+105,BN229,30,Female,Ninh Bình,Recovered,Vietnam
+106,BN228,29,Male,Ninh Bình,Recovered,Vietnam
+107,BN227,32,Male,Hà Nội,Recovered,Vietnam
+108,BN226,22,Male,Vĩnh Phúc,Recovered,Vietnam
+109,BN225,35,Male,Hà Nội,Recovered,Vietnam
+110,BN224,39,Male,Hồ Chí Minh,Recovered,Brazil
+111,BN223,29,Female,Hà Nội,Recovered,Vietnam
+112,BN222,22,Female,Hà Nội,Recovered,Vietnam
+113,BN221,24,Female,Vĩnh Phúc,Recovered,Vietnam
+114,BN220,20,Male,Hà Nội,Recovered,Vietnam
+115,BN219,59,Female,Hưng Yên,Recovered,Vietnam
+116,BN218,43,Female,Hà Nội,Recovered,Vietnam
+117,BN217,25,Female,Hà Nội,Recovered,Vietnam
+118,BN216,48,Female,Hà Nội,Recovered,Vietnam
+119,BN215,31,Male,Hà Nội,Recovered,Vietnam
+120,BN214,45,Female,Hà Nội,Recovered,Vietnam
+121,BN213,40,Female,Hà Nội,Recovered,Vietnam
+122,BN212,35,Female,Vĩnh Phúc,Recovered,Vietnam
+123,BN211,23,Female,Ninh Bình,Recovered,Vietnam
+124,BN210,26,Female,Hà Tĩnh,Recovered,Vietnam
+125,BN209,55,Female,Hà Nội,Recovered,Vietnam
+126,BN208,38,Female,Hà Nội,Recovered,Vietnam
+127,BN207,49,Male,Hồ Chí Minh,Recovered,Brazil
+128,BN206,48,Male,Hồ Chí Minh,Recovered,Vietnam
+129,BN205,41,Male,Hà Nội,Recovered,Vietnam
+130,BN204,10,Male,Hồ Chí Minh,Recovered,Vietnam
+131,BN203,35,Female,Hồ Chí Minh,Recovered,Vietnam
+132,BN202,57,Female,Hà Nội,Recovered,Vietnam
+133,BN201,23,Female,Hà Nội,Recovered,Vietnam
+134,BN200,61,Female,Hà Nội,Recovered,Vietnam
+135,BN199,57,Female,Hà Nội,Recovered,Vietnam
+136,BN198,53,Female,Hà Nội,Recovered,Vietnam
+137,BN197,41,Male,Hà Nội,Recovered,Vietnam
+138,BN196,34,Female,Hà Nội,Recovered,Vietnam
+139,BN195,41,Female,Hà Nội,Recovered,Vietnam
+140,BN194,42,Female,Hà Nội,Recovered,Vietnam
+141,BN193,23,Female,Hà Nội,Recovered,Vietnam
+142,BN192,21,Female,Hà Nội,Recovered,Vietnam
+143,BN191,36,Female,Hà Nội,Recovered,Vietnam
+144,BN190,49,Female,Hà Nội,Recovered,Vietnam
+145,BN189,46,Female,Hà Nội,Recovered,Vietnam
+146,BN188,44,Female,Hà Nam,Recovered,Vietnam
+147,BN187,30,Male,Hà Nội,Recovered,United States
+148,BN186,52,Female,Hà Nội,Recovered,France
+149,BN185,38,Male,Hà Nội,Recovered,Vietnam
+150,BN184,42,Female,Hà Nội,Recovered,Vietnam
+151,BN183,43,Female,Hà Nội,Recovered,Vietnam
+152,BN182,19,Female,Ninh Bình,Recovered,Vietnam
+153,BN181,33,Male,Ninh Bình,Recovered,Vietnam
+154,BN180,27,Female,Ninh Bình,Recovered,Vietnam
+155,BN179,62,Male,Thanh Hóa,Recovered,Vietnam
+156,BN178,44,Female,Thái Nguyên,Recovered,Vietnam
+157,BN177,49,Female,Hà Nội,Recovered,Vietnam
+158,BN176,38,Female,Hà Nội,Recovered,Vietnam
+159,BN175,57,Male,Hà Nội,Recovered,Vietnam
+160,BN174,57,Female,Hà Nội,Recovered,Vietnam
+161,BN173,43,Female,Hà Nội,Recovered,Vietnam
+162,BN172,35,Female,Hà Nội,Recovered,Vietnam
+163,BN171,19,Female,Hồ Chí Minh,Recovered,Vietnam
+164,BN170,27,Male,Ninh Bình,Recovered,Vietnam
+165,BN169,47,Female,Hà Nội,Recovered,Vietnam
+166,BN168,35,Female,Hà Nam,Recovered,Vietnam
+167,BN167,20,Female,Hà Nội,Recovered,Denmark
+168,BN166,25,Female,Ninh Bình,Recovered,Vietnam
+169,BN165,58,Male,Ninh Bình,Recovered,Vietnam
+170,BN164,23,Male,Ninh Bình,Recovered,Vietnam
+171,BN163,43,Female,Hà Nội,Recovered,Vietnam
+172,BN162,63,Female,Hà Nội,Recovered,Vietnam
+173,BN161,88,Female,Hà Nội,Recovered,Vietnam
+174,BN160,30,Female,Hồ Chí Minh,Recovered,Vietnam
+175,BN159,33,Male,Hồ Chí Minh,Recovered,Brazil
+176,BN158,45,Male,Hồ Chí Minh,Recovered,Brazil
+177,BN157,31,Female,Hồ Chí Minh,Recovered,United Kingdom
+178,BN156,21,Male,Bạc Liêu,Recovered,Vietnam
+179,BN155,21,Female,Bạc Liêu,Recovered,Vietnam
+180,BN154,23,Female,Cần Thơ,Recovered,Vietnam
+181,BN153,60,Female,Hồ Chí Minh,Recovered,Vietnam
+182,BN152,27,Female,Hồ Chí Minh,Recovered,Vietnam
+183,BN151,45,Female,Hồ Chí Minh,Recovered,Brazil
+184,BN150,55,Male,Hồ Chí Minh,Recovered,Vietnam
+185,BN149,40,Male,Quảng Ninh,Recovered,Vietnam
+186,BN148,58,Male,Hà Nội,Recovered,France
+187,BN147,19,Male,Hà Nội,Recovered,Vietnam
+188,BN146,17,Female,Hà Tĩnh,Recovered,Vietnam
+189,BN145,34,Male,Cần Thơ,Recovered,Vietnam
+190,BN144,22,Male,Hồ Chí Minh,Recovered,Vietnam
+191,BN143,58,Female,Hồ Chí Minh,Recovered,South Africa
+192,BN142,26,Male,Hồ Chí Minh,Recovered,Vietnam
+193,BN141,29,Female,Hà Nội,Recovered,Vietnam
+194,BN140,21,Male,Hà Nội,Recovered,Vietnam
+195,BN139,24,Female,Hà Nội,Recovered,Vietnam
+196,BN138,23,Male,Hà Nội,Recovered,Vietnam
+197,BN137,36,Male,Hà Nội,Recovered,Vietnam
+198,BN136,23,Female,Hà Nội,Recovered,Vietnam
+199,BN135,27,Female,Đà Nẵng,Recovered,Vietnam
+200,BN134,10,Male,Thanh Hóa,Recovered,Vietnam
+201,BN133,66,Female,Lai Châu,Recovered,Vietnam
+202,BN132,25,Female,Bắc Giang,Recovered,Vietnam
+203,BN131,23,Male,Bắc Giang,Recovered,Vietnam
+204,BN130,30,Male,Bắc Giang,Recovered,Vietnam
+205,BN129,20,Male,Hà Nội,Recovered,Vietnam
+206,BN128,20,Male,Hà Nội,Recovered,Vietnam
+207,BN127,23,Male,Hồ Chí Minh,Recovered,Vietnam
+208,BN126,28,Male,Hồ Chí Minh,Recovered,South Africa
+209,BN125,22,Female,Hồ Chí Minh,Recovered,South Africa
+210,BN124,52,Male,Hồ Chí Minh,Recovered,Brazil
+211,BN123,17,Female,Bến Tre,Recovered,Vietnam
+212,BN122,24,Female,Đà Nẵng,Recovered,Vietnam
+213,BN121,58,Male,Hồ Chí Minh,Recovered,Vietnam
+214,BN120,27,Male,Hồ Chí Minh,Recovered,Canada
+215,BN119,29,Male,Hồ Chí Minh,Recovered,United States
+216,BN118,23,Female,Tây Ninh,Recovered,Vietnam
+217,BN117,30,Male,Tây Ninh,Recovered,Vietnam
+218,BN116,29,Male,Hà Nội,Recovered,Vietnam
+219,BN115,44,Female,Hà Nội,Recovered,Vietnam
+220,BN114,19,Male,Hà Nội,Recovered,Vietnam
+221,BN113,18,Female,Hà Nội,Recovered,Vietnam
+222,BN112,30,Female,Hà Nội,Recovered,Vietnam
+223,BN111,25,Female,Hà Nội,Recovered,Vietnam
+224,BN110,19,Male,Hà Nội,Recovered,Vietnam
+225,BN109,42,Male,Hà Nội,Recovered,Vietnam
+226,BN108,19,Male,Hà Nội,Recovered,Vietnam
+227,BN107,25,Female,Hà Nội,Recovered,Vietnam
+228,BN106,20,Female,Trà Vinh,Recovered,Vietnam
+229,BN105,35,Female,Trà Vinh,Recovered,Vietnam
+230,BN104,33,Female,Đồng Tháp,Recovered,Vietnam
+231,BN103,22,Male,Đồng Tháp,Recovered,Vietnam
+232,BN102,9,Female,Đồng Tháp,Recovered,Vietnam
+233,BN101,26,Female,Đồng Tháp,Recovered,Vietnam
+234,BN100,55,Male,Hồ Chí Minh,Recovered,Vietnam
+235,BN99,29,Male,Hồ Chí Minh,Recovered,Vietnam
+236,BN98,34,Male,Hồ Chí Minh,Recovered,United Kingdom
+237,BN97,34,Male,Hồ Chí Minh,Recovered,United Kingdom
+238,BN96,21,Female,Hồ Chí Minh,Recovered,Vietnam
+239,BN95,20,Male,Hồ Chí Minh,Recovered,Vietnam
+240,BN94,64,Female,Bắc Giang,Recovered,Vietnam
+241,BN93,20,Male,Hà Nội,Recovered,Vietnam
+242,BN92,21,Male,Hồ Chí Minh,Recovered,Vietnam
+243,BN91,43,Male,Hồ Chí Minh,Being treated,United Kingdom
+244,BN90,21,Female,Hồ Chí Minh,Recovered,Vietnam
+245,BN89,22,Female,Hồ Chí Minh,Recovered,Vietnam
+246,BN88,25,Female,Hà Nội,Recovered,Vietnam
+247,BN87,34,Female,Hà Nội,Recovered,Vietnam
+248,BN86,54,Female,Hà Nội,Recovered,Vietnam
+249,BN85,20,Male,Hà Nội,Recovered,Vietnam
+250,BN84,21,Male,Hà Nội,Recovered,Vietnam
+251,BN83,50,Female,Hồ Chí Minh,Recovered,United States
+252,BN82,16,Female,Hồ Chí Minh,Recovered,Vietnam
+253,BN81,20,Male,Hồ Chí Minh,Recovered,Vietnam
+254,BN80,18,Male,Hồ Chí Minh,Recovered,Vietnam
+255,BN79,48,Female,Hồ Chí Minh,Recovered,Vietnam
+256,BN78,22,Male,Hà Nội,Recovered,Vietnam
+257,BN77,25,Female,Bắc Ninh,Recovered,Vietnam
+258,BN76,52,Male,Hà Nội,Recovered,France
+259,BN75,40,Female,Hồ Chí Minh,Recovered,Vietnam
+260,BN74,23,Male,Hà Nội,Recovered,Vietnam
+261,BN73,11,Male,Hải Dương,Recovered,Vietnam
+262,BN72,25,Female,Hà Nội,Recovered,France
+263,BN71,19,Female,Hà Nội,Recovered,Vietnam
+264,BN70,19,Male,Hà Nội,Recovered,Vietnam
+265,BN69,30,Male,Hà Nội,Recovered,Germany
+266,BN68,41,Male,Đà Nẵng,Recovered,United States
+267,BN67,36,Male,Ninh Thuận,Recovered,Vietnam
+268,BN66,21,Female,Hồ Chí Minh,Recovered,Vietnam
+269,BN65,28,Female,Hồ Chí Minh,Recovered,Vietnam
+270,BN64,36,Female,Hồ Chí Minh,Recovered,Vietnam
+271,BN63,20,Female,Hà Nội,Recovered,Vietnam
+272,BN62,18,Male,Quảng Ninh,Recovered,Vietnam
+273,BN61,42,Male,Ninh Thuận,Recovered,Vietnam
+274,BN60,29,Male,Hà Nội,Recovered,France
+275,BN59,26,Female,Hà Nội,Recovered,Vietnam
+276,BN58,26,Female,Hà Nội,Recovered,Vietnam
+277,BN57,66,Male,Quảng Nam,Recovered,United Kingdom
+278,BN56,30,Male,Hà Nội,Recovered,United Kingdom
+279,BN55,35,Male,Hà Nội,Recovered,Germany
+280,BN54,33,Male,Hồ Chí Minh,Recovered,Latvia
+281,BN53,53,Male,Hồ Chí Minh,Recovered,Czech
+282,BN52,24,Female,Quảng Ninh,Recovered,Vietnam
+283,BN51,22,Female,Hà Nội,Recovered,Vietnam
+284,BN50,50,Male,Hà Nội,Recovered,Vietnam
+285,BN49,71,Male,Thừa Thiên Huế,Recovered,United Kingdom
+286,BN48,31,Male,Hồ Chí Minh,Recovered,Vietnam
+287,BN47,43,Female,Hà Nội,Recovered,Vietnam
+288,BN46,30,Female,Hà Nội,Recovered,Vietnam
+289,BN45,25,Male,Hồ Chí Minh,Recovered,Vietnam
+290,BN44,13,Male,Bình Thuận,Recovered,Vietnam
+291,BN43,47,Female,Bình Thuận,Recovered,Vietnam
+292,BN42,28,Male,Bình Thuận,Recovered,Vietnam
+293,BN41,59,Male,Bình Thuận,Recovered,Vietnam
+294,BN40,2,Female,Bình Thuận,Recovered,Vietnam
+295,BN39,25,Male,Hà Nội,Recovered,Vietnam
+296,BN38,28,Female,Bình Thuận,Recovered,Vietnam
+297,BN37,37,Female,Bình Thuận,Recovered,Vietnam
+298,BN36,64,Female,Bình Thuận,Recovered,Vietnam
+299,BN35,29,Female,Đà Nẵng,Recovered,Vietnam
+300,BN34,51,Female,Bình Thuận,Recovered,Vietnam
+301,BN33,58,Male,Quảng Nam,Recovered,United Kingdom
+302,BN32,24,Female,Hồ Chí Minh,Recovered,Vietnam
+303,BN31,49,Male,Quảng Nam,Recovered,United Kingdom
+304,BN30,66,Female,Thừa Thiên Huế,Recovered,United Kingdom
+305,BN29,58,Male,Đà Nẵng,Recovered,United Kingdom
+306,BN28,74,Male,Đà Nẵng,Recovered,United Kingdom
+307,BN27,67,Male,Lào Cai,Recovered,United Kingdom
+308,BN26,50,Female,Lào Cai,Recovered,Iceland
+309,BN25,70,Female,Quảng Ninh,Recovered,United Kingdom
+310,BN24,69,Male,Quảng Ninh,Recovered,United Kingdom
+311,BN23,66,Male,Quảng Ninh,Recovered,United Kingdom
+312,BN22,60,Male,Quảng Ninh,Recovered,United Kingdom
+313,BN21,61,Male,Hà Nội,Recovered,Vietnam
+314,BN20,28,Male,Hà Nội,Recovered,Vietnam
+315,BN19,64,Female,Hà Nội,Recovered,Vietnam
+316,BN18,27,Male,Ninh Bình,Recovered,Vietnam
+317,BN17,26,Female,Hà Nội,Recovered,Vietnam
+318,BN16,50,Male,Vĩnh Phúc,Recovered,Vietnam
+319,BN15,0,Female,Vĩnh Phúc,Recovered,Vietnam
+320,BN14,55,Female,Vĩnh Phúc,Recovered,Vietnam
+321,BN13,29,Female,Vĩnh Phúc,Recovered,Vietnam
+322,BN12,16,Female,Vĩnh Phúc,Recovered,Vietnam
+323,BN11,49,Female,Vĩnh Phúc,Recovered,Vietnam
+324,BN10,42,Female,Vĩnh Phúc,Recovered,Vietnam
+325,BN9,30,Male,Vĩnh Phúc,Recovered,Vietnam
+326,BN8,29,Female,Vĩnh Phúc,Recovered,Vietnam
+327,BN7,73,Male,Hồ Chí Minh,Recovered,United States
+328,BN6,25,Female,Khánh Hòa,Recovered,Vietnam
+329,BN5,23,Female,Vĩnh Phúc,Recovered,Vietnam
+330,BN4,29,Male,Vĩnh Phúc,Recovered,Vietnam
+331,BN3,25,Female,Thanh Hóa,Recovered,Vietnam
+332,BN2,28,Male,Hồ Chí Minh,Recovered,China
+333,BN1,66,Male,Hồ Chí Minh,Recovered,China

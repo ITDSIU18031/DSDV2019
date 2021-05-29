@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<meta charset='urf-8'>
+<html>
+ <head>
+ <title>Line</title>
+ 
+<script type="text/javascript" src="https://d3js.org/d3.v4.min.js"charset="utf-8"></script>
+<script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
+       
+ </head>
+ <body>
+
+<style type="text/css">
+
+			.line {
+				fill: none;
+				stroke-width: 2px;
+			}
+
+			.legend {
+				font-size: 16px;
+				font-weight: bold;
+				text-anchor: middle;
+			} 
+
+
+
+			circle:hover {
+				fill: orange;
+			}
+			
+			#tooltip {
+				position: absolute;
+				width: auto;
+				height: auto;
+				padding: 10px;
+				background-color: white;
+				-webkit-border-radius: 10px;
+				-moz-border-radius: 10px;
+				border-radius: 10px;
+				-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+				-moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+				box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+				pointer-events: none;
+			}
+			
+			#tooltip.hidden {
+				display: none;
+			}
+			
+			#tooltip p {
+				margin: 0;
+				font-family: sans-serif;
+				font-size: 16px;
+				line-height: 20px;
+
+			}
+			
+			</style>
+		
+		<div id="tooltip" class="hidden">
+			<p><strong>COVID-19</strong></p>
+			<p><span id="type"></span></p>
+			<p><span id="date"></span></p>
+		</div>
+
+		<script type="text/javascript">
+//Width and height
+	//Width and height
+	var w = 1280;
+	var h = 720;
+	var padding = 55;
+			
+			
+	var dataset, xScale, yScale, colorScale, xAxis, yAxis;
+
+	//For converting Dates to strings
+	var formatTime = d3.timeFormat("%d/%m");
+			
+	var rowConverter = function(d) {
+		return {
+			type: d.Type,
+			date: new Date(d.Date),
+			//Convert from string to float
+			cases: parseFloat(d.Case)
+		};
+	}
+
+//import data
+ d3.csv("https://raw.githubusercontent.com/vvviet2908/DS-DV/master/covid19_vietnam.csv",rowConverter, function(error, data) {
+    if (error) {
+	  console.log(error);
+    }
+    else {
+
+	console.log(data);
+	
+	var dataset = d3.nest()
+					.key(function(d) { return d.type; })
+					.entries(data);
+	console.log(dataset);
+	
+	var type = d3.annotationCalloutCircle
+
+   
+//Create scale functions
+
+				
+				xScale = d3.scaleTime()
+							   .domain([
+									d3.min(data, function(d) { return d.date; }),
+									d3.max(data, function(d) { return d.date; })
+								])
+							   .range([padding, w]);
+
+				yScale = d3.scaleLinear()
+								.domain([
+									d3.min(data, function(d) { if (d.cases >= 0) return d.cases; }) - 10,
+									d3.max(data, function(d) { return d.cases; })
+								])
+								.range([h - padding, 0]);
+								
+				colorScale = d3.scaleOrdinal()
+								.domain(["Confirmed", "Recovered"])
+								.range(["#CC2027", "#128C7E"]);
+
+				//Define X axis
+				xAxis = d3.axisBottom()
+						   .scale(xScale)
+						   .ticks(30)
+						   .tickFormat(formatTime);
+
+				//Define Y axis
+				yAxis = d3.axisLeft()
+						   .scale(yScale)
+						   .ticks(10);
+
+				//Define line generators
+				line = d3.line()
+							.x(function(d) { return xScale(d.date); })
+							.y(function(d) { return yScale(+d.cases); });
+							
+				
+
+
+  
+				//Create SVG element
+				var svg = d3.select("body")
+							.append("svg")
+							.attr("width", w)
+							.attr("height", h);
+
+				var mouseover = function(d) {
+
+							var xPosition = parseFloat(d3.select(this).attr("cx")) + padding;
+							var yPosition = parseFloat(d3.select(this).attr("cy")) / 2 + h/ 2;
+
+								//Update the tooltip position and value
+								d3.select("#tooltip")
+								.style("left", xPosition + "px")
+								.style("top", yPosition + "px")						
+								.select("#type")
+								.text("Date: " + formatTime(d.date) + " - type: " + d.type + " - Case: " + d.cases);
+						
+								//Show the tooltip
+								d3.select("#tooltip").classed("hidden", false);
+				}
+
+
+				var mouseout = function(d) {
+						d3.select("#tooltip").classed("hidden", true);
+				}
+
+				//Create axis
+				svg.append("g")
+					.attr("class", "axis")
+					.attr("transform", "translate(0," + (h - padding) + ")")
+					.call(xAxis);
+
+				svg.append("g")
+					.attr("class", "axis")
+					.attr("transform", "translate(" + padding + ",0)")
+					.call(yAxis);
+					
+				svg.append("text")
+					.attr("text-anchor", "end")
+					.attr("transform", "rotate(-90)")
+					.attr("font-family", "sans-serif")
+					.attr("font-size", "15px")
+					.attr("y", w-1200)
+					.attr("x", -20)
+					.text("Total Cases");
+	
+				svg.append("text")
+					.attr("text-anchor", "end")
+					.attr("font-family", "sans-serif")
+					.attr("font-size", "15px")
+					.attr("font-weight",700)
+					.attr("x", w/2 - 90 )
+					.attr("y", h-20)
+					.text("Type: ");
+		 
+				let lines = svg.append('g')
+								.attr('class', 'lines');
+	
+
+			legendSpace = w/dataset.length; // spacing for legend 
+
+				// Loop through each symbol / key
+		dataset.forEach(function(d,i) {                          
+
+				svg.append("path")
+					.attr("class", "line")
+					.style("stroke", function() { 
+						return d.colorScale = colorScale(d.key); })
+					.attr("id", 'tag'+d.key.replace(/\s+/g, '')) // assign ID
+					.attr("d", line(d.values));
+					
+				
+				//Create the dots on the lines
+				lines.selectAll("circle-group")
+					.data(dataset).enter()
+					.append("g")
+					.style("fill", (d, i) => colorScale(d.key))
+					.selectAll("circle")
+					.data(d => d.values)
+					.enter()
+					.append("g")
+					.attr("class", "circle")  
+					.append("circle")
+					.attr("cx", d => xScale(d.date))
+					.attr("cy", d => yScale(d.cases))
+					.attr("r", 3)
+					.on("mouseover", mouseover )
+					.on("mouseout", mouseout );
+				
+				//Add the legend
+				svg.append("circle")
+				.attr("cx", (legendSpace)+i*legendSpace/3-60)
+				.attr("cy", h - 25) // 100 is where the first dot appears. 25 is the distance between dots
+				.attr("r", 7)
+				.style("fill",function() { // dynamic colours
+						return d.colorScale = colorScale(d.key);});
+ 
+
+				// Add the Legend
+				svg.append("text")                                   
+					.attr("x", (legendSpace)+i*legendSpace/3) // spacing
+					.attr("y", h - 20)         // *******
+					.attr("class", "legend") 
+					.attr("font-family", "sans-serif")
+					.attr("font-size", "15px")			// style the legend
+					.style("fill", function() { // dynamic colours
+						return d.colorScale = colorScale(d.key); })       		
+					.text(d.key);      
+				
+				
+			const annotations1 = [
+  {
+    note: {
+      label: "Date: 3/23/2020",
+	  bgPadding: 20,
+      title: "The most infected cases day"
+    },
+    x :600,
+	y:590,
+    dy: -100,
+    dx: -100
+  }
+]			
+	const makeAnnotations = d3.annotation()
+							//.editMode(true)
+							.type(type)
+							.annotations(annotations1)
+	
+				
+				d3.select("svg")
+          .append("g")
+          .attr("class", "annotation-group")
+          .call(makeAnnotations)
+
+const annotations2 = [
+  {
+    note: {
+      label: "Date: 5/15/2020 ",
+	  bgPadding: 20,
+      title: "Almost cases are overseas people who taken the quarantine "
+    },
+    x :1082,
+	y:590,
+    dy: -100,
+    dx: 0
+  }
+]
+const Anno1 = d3.annotation()
+							//.editMode(true)
+							.type(type)
+							.annotations(annotations2)
+	
+				
+				d3.select("svg")
+          .append("g")
+          .attr("class", "annotation-group")
+          .call(Anno1)
+		
+					
+				
+				
+			});
+			
+
+ }});
+			
+
+
+		</script>
+	
+
+
+ </body>
+</html>
